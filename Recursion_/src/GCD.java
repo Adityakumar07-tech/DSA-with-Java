@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class GCD {
     static int gcd_(int x , int y ){
@@ -13,6 +14,5 @@ public class GCD {
         int x= sc.nextInt();
         int y = sc.nextInt();
         System.out.println(gcd_(x,y));
-
     }
 }
